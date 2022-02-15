@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
 root to: 'homes#top'
 
+get 'unsubscribe/:name' => 'homes#unsubscribe' , as: 'confirm_unsbscribe'
+
 end
